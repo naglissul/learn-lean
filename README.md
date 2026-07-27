@@ -11,3 +11,13 @@ The Hitchhiker's Guide to Logical Verification (2024 Edition)
 by Anne Baanen, Alexander Bentkamp, Jasmin Blanchette, Johannes Hölzl, and Jannis Limperg
 https://lean-forward.github.io/hitchhikers-guide/2024/
 ```
+
+```
+Harper, R. (2016). Practical foundations for programming languages. Cambridge University Press.
+```
+
+## Other things to consider
+
+- Haskell
+- Dependent type theory.
+- Calculus of inductive constructions
