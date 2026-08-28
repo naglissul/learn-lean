@@ -1,5 +1,5 @@
 diff --git a/README.md b/README.md
-index a38eba5..d224600 100644
+index a38eba5..d8009c2 100644
 --- a/README.md
 +++ b/README.md
 @@ -2,7 +2,6 @@
@@ -10,7 +10,7 @@ index a38eba5..d224600 100644
  ## Installation
  
  The Hitchhiker's Guide PDF document is generated from the Lean demo files in
-@@ -11,3 +10,13 @@ homework sheet for each chapter.
+@@ -11,3 +10,14 @@ homework sheet for each chapter.
  
  To edit the Lean files, open the `lean` folder as a Lean 4 project [as described
  here](https://leanprover-community.github.io/install/project.html#working-on-an-existing-project).
@@ -21,6 +21,19 @@ index a38eba5..d224600 100644
 +
 +```bash
 +git diff 4e5e78a HEAD > /home/home/Desktop/DONT_DELETE_2/__learn-lean/love2024.diff
++cd /home/home/Desktop/DONT_DELETE_2/__learn-lean/ && git add . && git commit -m "love2024 changes" && git push
 +git reset 4e5e78a --hard
 +git apply /home/home/Desktop/DONT_DELETE_2/__learn-lean/love2024.diff
 +```
+diff --git a/update b/update
+new file mode 100755
+index 0000000..8e878f4
+--- /dev/null
++++ b/update
+@@ -0,0 +1,5 @@
++#!/bin/bash
++git add .
++git commit -m "Auto commit"
++git diff 4e5e78a HEAD > /home/home/Desktop/DONT_DELETE_2/__learn-lean/love2024.diff
++cd /home/home/Desktop/DONT_DELETE_2/__learn-lean/ && git add . && git commit -m "love2024 changes" && git push
+\ No newline at end of file
