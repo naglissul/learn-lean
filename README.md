@@ -89,3 +89,5 @@ Now the logical verification tutorial from zero.
 https://github.com/lean-forward/logical_verification_2024/blob/main/lean/LoVe/LoVe01_TypesAndTerms_Demo.lean
 
 Yeah... moving to a cloned version, cuz here's too much setup to do everythign on my own...
+
+Saving changes in love2024.diff file. possible to apply it with `git apply love2024.diff` after cloning original love2024 repo.
